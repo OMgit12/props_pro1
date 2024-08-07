@@ -20,7 +20,7 @@ function Card(props) {
             debitis?
           </p>
           <button className="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
-            View Profile →
+            {props.btntext}
           </button>
         </div>
       </div>

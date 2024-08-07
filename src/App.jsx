@@ -11,8 +11,8 @@ function App() {
      <h1>
         Hello !
       </h1>
-     <Card title = "harry"/>
-     <Card title = "hariom" object= {obj}/>
+     <Card title = "harry" btntext= "click me"/>
+     <Card title = "hariom" object= {obj} btntext= "click me"/>
     </>
   );
 }
